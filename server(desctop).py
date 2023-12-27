@@ -17,7 +17,7 @@ try:
     while 1:
         data = client.recv(size)
         if data:
-            print(str(data))
+            print(bytes.decode(data))
             client.send(data)
 except:	
     print("Closing socket")	
