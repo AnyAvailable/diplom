@@ -11,7 +11,7 @@ port = 4
 s = socket.socket(socket.AF_BLUETOOTH, socket.SOCK_STREAM, socket.BTPROTO_RFCOMM)
 s.connect((serverMACAddress,port))
 while 1:
-    text = keyboard.record(trigger_on_release=True)
+    text = keyboard.record()
     if text == "esc":
         break
     s.send(bytes(text, 'UTF-8'))
