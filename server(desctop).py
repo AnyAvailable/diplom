@@ -19,6 +19,7 @@ try:
         data = client.recv(size)
         if data:
             print(bytes.decode(data))
+            keyboard.play(data)
             client.send(data)
 except:	
     print("Closing socket")	
