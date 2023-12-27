@@ -18,9 +18,9 @@ try:
     while 1:
         data = client.recv(size)
         if data:
-            print(bytes.decode(data))
-            keyboard.play(data)
-            client.send(data)
+            print(list(bytes.decode(data)))
+            keyboard.play(list(bytes.decode(data)))
+            client.send(list(bytes.decode(data)))
 except:	
     print("Closing socket")	
     client.close()

