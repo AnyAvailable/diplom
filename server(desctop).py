@@ -4,6 +4,7 @@ Bluetooth using Python sockets (with Python 3.3 or above).
 """
 
 import socket
+import keyboard
 
 hostMACAddress = 'e8:48:b8:c8:20:00' # The MAC address of a Bluetooth adapter on the server. The server might have multiple Bluetooth adapters.
 port = 4 # 3 is an arbitrary choice. However, it must match the port used by the client.
