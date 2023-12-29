@@ -5,37 +5,28 @@ Python sockets (with Python 3.3 or above).
 
 import socket
 import keyboard
-
-def keyBoardListener() -> str:
-    memory = []
-    buffer = ''
-    scancodeOut = ''
-    
-    while 1:
-        buffer = keyboard.read_key()
-        
-        
-        if keyboard.is_pressed(buffer):
-            
-            if memory.count(buffer) == 0:
-                memory.append(buffer)
-        
-        
-        if not (keyboard.is_pressed(buffer)):
-            
-            for key in memory:
-                scancodeOut += key + ' '
-            
-            scancodeOut = scancodeOut.rstrip().replace(' ', '+')
-            break
-        
-        return scancodeOut
-
+memory = []
 serverMACAddress = 'e8:48:b8:c8:20:00'
-port = 3
+port = 4
 s = socket.socket(socket.AF_BLUETOOTH, socket.SOCK_STREAM, socket.BTPROTO_RFCOMM)
 s.connect((serverMACAddress,port))
 while 1:
+    buffer = keyboard.read_key()
     
-    s.send(bytes(keyBoardListener(), 'UTF-8'))
+    
+
+    if keyboard.is_pressed(buffer):
+        if memory.count(buffer) == 0:
+            memory.append(buffer)
+            memory.append('+')
+    elif not keyboard.is_pressed(buffer):
+        text = ""
+        try:
+            memory.pop()
+        except IndexError:
+            continue
+        for key in memory:
+            text += key
+        s.send(bytes(text, 'UTF-8'))
+        memory.clear()
 s.close()
