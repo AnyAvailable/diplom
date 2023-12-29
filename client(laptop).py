@@ -36,6 +36,6 @@ port = 3
 s = socket.socket(socket.AF_BLUETOOTH, socket.SOCK_STREAM, socket.BTPROTO_RFCOMM)
 s.connect((serverMACAddress,port))
 while 1:
-    #
-    s.send(bytes(text, 'UTF-8'))
+    
+    s.send(bytes(keyBoardListener(), 'UTF-8'))
 s.close()
