@@ -390,7 +390,7 @@
     <string>f2</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="win">
+  <widget class="QPushButton" name="win_vk">
    <property name="geometry">
     <rect>
      <x>20</x>
