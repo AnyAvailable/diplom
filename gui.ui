@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1370</width>
+    <height>489</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="esc">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>esc</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f1">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_3">
+   <property name="geometry">
+    <rect>
+     <x>275</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_4">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_5">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_6">
+   <property name="geometry">
+    <rect>
+     <x>495</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_7">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_8">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_9">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_10">
+   <property name="geometry">
+    <rect>
+     <x>825</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_11">
+   <property name="geometry">
+    <rect>
+     <x>715</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_12">
+   <property name="geometry">
+    <rect>
+     <x>935</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_13">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_14">
+   <property name="geometry">
+    <rect>
+     <x>1045</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_15">
+   <property name="geometry">
+    <rect>
+     <x>1155</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_16">
+   <property name="geometry">
+    <rect>
+     <x>1210</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_17">
+   <property name="geometry">
+    <rect>
+     <x>1265</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_18">
+   <property name="geometry">
+    <rect>
+     <x>1320</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_19">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_20">
+   <property name="geometry">
+    <rect>
+     <x>55</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_21">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_22">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_23">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_24">
+   <property name="geometry">
+    <rect>
+     <x>275</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_25">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_26">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f2_27">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="win">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>430</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>win</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
