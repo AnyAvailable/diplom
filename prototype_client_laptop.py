@@ -18,7 +18,7 @@ class App(QMainWindow):
         s.connect((serverMACAddress,port))
         while 1:
     
-            s.send(bytes(str(keyBoardListener()), 'UTF-8'))
+            s.send(bytes(str("win"), 'UTF-8'))
             data = s.recv(1024)
             print(bytes.decode(data, "utf-8") + "pressed")
             time.sleep(1)
@@ -31,11 +31,3 @@ if __name__ == "__main__":
     ex = App()
     ex.show()
     sys.exit(app.exec())
-
-
-def keyBoardListener() -> str:
-    memory = "win"        
-    return memory
-    
-
-
