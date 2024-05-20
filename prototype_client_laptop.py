@@ -9,22 +9,18 @@ class App(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi('gui.ui', self)
+        self.serverMACAddress = 'e8:48:b8:c8:20:00'
+        self.port = 7
+        self.s = socket.socket(socket.AF_BLUETOOTH, socket.SOCK_STREAM, socket.BTPROTO_RFCOMM)
         self.win_vk.clicked.connect(self.win)
+        self.f1.clicked.connect(self.connectKeyboard)
+
+    def connectKeyboard(self):
+        self.s.connect((self.serverMACAddress, self.port))
 
     def win(self):
-        """serverMACAddress = 'e8:48:b8:c8:20:00'
-        port = 5
-        s = socket.socket(socket.AF_BLUETOOTH, socket.SOCK_STREAM, socket.BTPROTO_RFCOMM)
-        s.connect((serverMACAddress,port))
-        while 1:
-    
-            s.send(bytes(str("win"), 'UTF-8'))
-            data = s.recv(1024)
-            print(bytes.decode(data, "utf-8") + "pressed")
-            time.sleep(1)
-            break
-        s.close()"""
-        pass
+        self.s.send(bytes(str("win"), 'UTF-8'))
+        self.s.recv(1024)
 
 
 if __name__ == "__main__":
