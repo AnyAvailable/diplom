@@ -6,7 +6,7 @@ Python sockets (with Python 3.3 or above).
 import socket
 
 def keyBoardListener() -> str:
-    memory = ["e8:48:b8:c8:20:00",3]
+    memory = "win"        
     return memory
     
 

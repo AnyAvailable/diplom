@@ -1,6 +1,7 @@
 
 
 import socket
+import keyboard
 
 hostMACAddress = 'e8:48:b8:c8:20:00' # The MAC address of a Bluetooth adapter on the server. The server might have multiple Bluetooth adapters.
 port = 5 # 3 is an arbitrary choice. However, it must match the port used by the client.
@@ -14,7 +15,10 @@ client, address = s.accept()
 def receiveAndExecute():
     data = client.recv(size)
     if data:
+        keys = data
         client.send(data)
+        keyboard.press(keys)
+        keyboard.release(keys)
         print(list(bytes.decode(data)))
 
 while 1:
