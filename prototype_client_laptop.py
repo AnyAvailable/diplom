@@ -4,7 +4,7 @@ Python sockets (with Python 3.3 or above).
 """
 
 import socket
-
+import time
 def keyBoardListener() -> str:
     memory = "win"        
     return memory
@@ -18,4 +18,7 @@ s.connect((serverMACAddress,port))
 while 1:
     
     s.send(bytes(str(keyBoardListener()), 'UTF-8'))
+    data = s.recv(1024)
+    print(bytes.decode(data, "utf-8") + "pressed")
+    time.sleep(1)
 s.close()
