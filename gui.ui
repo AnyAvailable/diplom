@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QPushButton" name="esc">
+  <widget class="QPushButton" name="esc_vk">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -26,7 +26,7 @@
     <string>esc</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f1">
+  <widget class="QPushButton" name="f1_vk">
    <property name="geometry">
     <rect>
      <x>110</x>
@@ -39,7 +39,7 @@
     <string>f1</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2">
+  <widget class="QPushButton" name="f2_vk">
    <property name="geometry">
     <rect>
      <x>165</x>
@@ -52,7 +52,7 @@
     <string>f2</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_2">
+  <widget class="QPushButton" name="f3_vk">
    <property name="geometry">
     <rect>
      <x>220</x>
@@ -62,10 +62,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>f3</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_3">
+  <widget class="QPushButton" name="f4_vk">
    <property name="geometry">
     <rect>
      <x>275</x>
@@ -75,10 +75,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>f4</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_4">
+  <widget class="QPushButton" name="f5_vk">
    <property name="geometry">
     <rect>
      <x>385</x>
@@ -88,10 +88,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>f5</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_5">
+  <widget class="QPushButton" name="f6_vk">
    <property name="geometry">
     <rect>
      <x>440</x>
@@ -101,10 +101,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>f6</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_6">
+  <widget class="QPushButton" name="f7_vk">
    <property name="geometry">
     <rect>
      <x>495</x>
@@ -114,10 +114,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>f7</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_7">
+  <widget class="QPushButton" name="f8_vk">
    <property name="geometry">
     <rect>
      <x>550</x>
@@ -127,10 +127,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>f8</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_8">
+  <widget class="QPushButton" name="f9_vk">
    <property name="geometry">
     <rect>
      <x>660</x>
@@ -140,10 +140,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>f9</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_9">
+  <widget class="QPushButton" name="f11_vk">
    <property name="geometry">
     <rect>
      <x>770</x>
@@ -153,10 +153,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>f11</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_10">
+  <widget class="QPushButton" name="f12_vk">
    <property name="geometry">
     <rect>
      <x>825</x>
@@ -166,10 +166,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>f12</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_11">
+  <widget class="QPushButton" name="f10_vk">
    <property name="geometry">
     <rect>
      <x>715</x>
@@ -179,10 +179,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>f10</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_12">
+  <widget class="QPushButton" name="prtsc_vk">
    <property name="geometry">
     <rect>
      <x>935</x>
@@ -192,10 +192,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>prtsc</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_13">
+  <widget class="QPushButton" name="scrlk_vk">
    <property name="geometry">
     <rect>
      <x>990</x>
@@ -205,10 +205,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>scrlk</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_14">
+  <widget class="QPushButton" name="pause_vk">
    <property name="geometry">
     <rect>
      <x>1045</x>
@@ -218,10 +218,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>pause</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_15">
+  <widget class="QPushButton" name="numlock_vk">
    <property name="geometry">
     <rect>
      <x>1155</x>
@@ -231,10 +231,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>num</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_16">
+  <widget class="QPushButton" name="numlockslash_vk">
    <property name="geometry">
     <rect>
      <x>1210</x>
@@ -244,10 +244,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>/</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_17">
+  <widget class="QPushButton" name="numlockstar_vk">
    <property name="geometry">
     <rect>
      <x>1265</x>
@@ -257,10 +257,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>*</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_18">
+  <widget class="QPushButton" name="numlockminus_vk">
    <property name="geometry">
     <rect>
      <x>1320</x>
@@ -270,10 +270,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>-</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_19">
+  <widget class="QPushButton" name="tilda_vk">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -283,10 +283,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>`Ё~</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_20">
+  <widget class="QPushButton" name="one_vk">
    <property name="geometry">
     <rect>
      <x>55</x>
@@ -296,10 +296,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>1!</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_21">
+  <widget class="QPushButton" name="two_vk">
    <property name="geometry">
     <rect>
      <x>110</x>
@@ -309,10 +309,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>2@&quot;</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_22">
+  <widget class="QPushButton" name="three_vk">
    <property name="geometry">
     <rect>
      <x>165</x>
@@ -322,10 +322,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>3#№</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_23">
+  <widget class="QPushButton" name="four_vk">
    <property name="geometry">
     <rect>
      <x>220</x>
@@ -335,10 +335,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>4$;</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_24">
+  <widget class="QPushButton" name="five_vk">
    <property name="geometry">
     <rect>
      <x>275</x>
@@ -348,10 +348,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>5%</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_25">
+  <widget class="QPushButton" name="six_vk">
    <property name="geometry">
     <rect>
      <x>330</x>
@@ -361,10 +361,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>6^:</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_26">
+  <widget class="QPushButton" name="seven_vk">
    <property name="geometry">
     <rect>
      <x>385</x>
@@ -374,10 +374,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>7&amp;?</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_27">
+  <widget class="QPushButton" name="eight_vk">
    <property name="geometry">
     <rect>
      <x>440</x>
@@ -387,7 +387,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>8*</string>
    </property>
   </widget>
   <widget class="QPushButton" name="win_vk">
@@ -399,11 +399,16 @@
      <height>50</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
    <property name="text">
-    <string>win</string>
+    <string>⊞</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_28">
+  <widget class="QPushButton" name="nine_vk">
    <property name="geometry">
     <rect>
      <x>495</x>
@@ -413,10 +418,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>9(</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_29">
+  <widget class="QPushButton" name="zero_vk">
    <property name="geometry">
     <rect>
      <x>550</x>
@@ -426,10 +431,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>0)</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_30">
+  <widget class="QPushButton" name="minus_vk">
    <property name="geometry">
     <rect>
      <x>605</x>
@@ -439,10 +444,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>-_</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_31">
+  <widget class="QPushButton" name="plus_vk">
    <property name="geometry">
     <rect>
      <x>660</x>
@@ -452,36 +457,28 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>+=</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_32">
+  <widget class="QPushButton" name="backspace_vk">
    <property name="geometry">
     <rect>
-     <x>715</x>
+     <x>714</x>
      <y>55</y>
-     <width>50</width>
+     <width>161</width>
      <height>50</height>
     </rect>
    </property>
-   <property name="text">
-    <string>f2</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="f2_33">
-   <property name="geometry">
-    <rect>
-     <x>770</x>
-     <y>55</y>
-     <width>105</width>
-     <height>50</height>
-    </rect>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>←</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_34">
+  <widget class="QPushButton" name="ins_vk">
    <property name="geometry">
     <rect>
      <x>935</x>
@@ -491,10 +488,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>ins</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_35">
+  <widget class="QPushButton" name="home_vk">
    <property name="geometry">
     <rect>
      <x>990</x>
@@ -504,10 +501,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>home</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_36">
+  <widget class="QPushButton" name="pgup_vk">
    <property name="geometry">
     <rect>
      <x>1045</x>
@@ -517,10 +514,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>pg up</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_37">
+  <widget class="QPushButton" name="del_vk">
    <property name="geometry">
     <rect>
      <x>935</x>
@@ -530,10 +527,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>del</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_38">
+  <widget class="QPushButton" name="end_vk">
    <property name="geometry">
     <rect>
      <x>990</x>
@@ -543,10 +540,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>end</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_39">
+  <widget class="QPushButton" name="pgdn_vk">
    <property name="geometry">
     <rect>
      <x>1045</x>
@@ -556,10 +553,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>pg dn</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_40">
+  <widget class="QPushButton" name="down_vk">
    <property name="geometry">
     <rect>
      <x>990</x>
@@ -569,10 +566,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>↓</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_41">
+  <widget class="QPushButton" name="right_vk">
    <property name="geometry">
     <rect>
      <x>1045</x>
@@ -582,10 +579,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>→</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_42">
+  <widget class="QPushButton" name="left_vk">
    <property name="geometry">
     <rect>
      <x>935</x>
@@ -595,10 +592,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>←</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_43">
+  <widget class="QPushButton" name="up_vk">
    <property name="geometry">
     <rect>
      <x>990</x>
@@ -608,10 +605,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>↑</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_44">
+  <widget class="QPushButton" name="rightctrl_vk">
    <property name="geometry">
     <rect>
      <x>800</x>
@@ -621,10 +618,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>ctrl</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_45">
+  <widget class="QPushButton" name="list_vk">
    <property name="geometry">
     <rect>
      <x>732</x>
@@ -634,10 +631,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>list</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_46">
+  <widget class="QPushButton" name="fn_vk">
    <property name="geometry">
     <rect>
      <x>664</x>
@@ -647,10 +644,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>fn</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_47">
+  <widget class="QPushButton" name="rightalt_vk">
    <property name="geometry">
     <rect>
      <x>596</x>
@@ -660,10 +657,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>alt</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_48">
+  <widget class="QPushButton" name="leftalt_vk">
    <property name="geometry">
     <rect>
      <x>147</x>
@@ -673,10 +670,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>alt</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_49">
+  <widget class="QPushButton" name="space_vk">
    <property name="geometry">
     <rect>
      <x>215</x>
@@ -686,10 +683,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>─</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_50">
+  <widget class="QPushButton" name="leftctrl_vk">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -699,10 +696,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>ctrl</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_51">
+  <widget class="QPushButton" name="leftshift_vk">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -712,10 +709,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>shift</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_52">
+  <widget class="QPushButton" name="capslock_vk">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -725,10 +722,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>caps</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_53">
+  <widget class="QPushButton" name="tab_vk">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -738,10 +735,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>tab</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_54">
+  <widget class="QPushButton" name="q_vk">
    <property name="geometry">
     <rect>
      <x>80</x>
@@ -751,10 +748,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Qй</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_55">
+  <widget class="QPushButton" name="w_vk">
    <property name="geometry">
     <rect>
      <x>135</x>
@@ -764,10 +761,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Wц</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_56">
+  <widget class="QPushButton" name="e_vk">
    <property name="geometry">
     <rect>
      <x>190</x>
@@ -777,10 +774,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Eу</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_57">
+  <widget class="QPushButton" name="r_vk">
    <property name="geometry">
     <rect>
      <x>245</x>
@@ -790,10 +787,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Rк</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_58">
+  <widget class="QPushButton" name="t_vk">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -803,10 +800,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Tе</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_59">
+  <widget class="QPushButton" name="y_vk">
    <property name="geometry">
     <rect>
      <x>355</x>
@@ -816,10 +813,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Yн</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_60">
+  <widget class="QPushButton" name="u_vk">
    <property name="geometry">
     <rect>
      <x>410</x>
@@ -829,10 +826,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Uг</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_61">
+  <widget class="QPushButton" name="i_vk">
    <property name="geometry">
     <rect>
      <x>465</x>
@@ -842,10 +839,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Iш</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_62">
+  <widget class="QPushButton" name="o_vk">
    <property name="geometry">
     <rect>
      <x>520</x>
@@ -855,10 +852,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Oщ</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_63">
+  <widget class="QPushButton" name="p_vk">
    <property name="geometry">
     <rect>
      <x>575</x>
@@ -868,10 +865,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Pз</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_64">
+  <widget class="QPushButton" name="leftbracket_vk">
    <property name="geometry">
     <rect>
      <x>630</x>
@@ -881,10 +878,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>х[{</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_65">
+  <widget class="QPushButton" name="rightbracket_vk">
    <property name="geometry">
     <rect>
      <x>685</x>
@@ -894,10 +891,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>ъ}]</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_66">
+  <widget class="QPushButton" name="a_vk">
    <property name="geometry">
     <rect>
      <x>92</x>
@@ -907,10 +904,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Aф</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_67">
+  <widget class="QPushButton" name="s_vk">
    <property name="geometry">
     <rect>
      <x>147</x>
@@ -920,10 +917,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Sы</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_68">
+  <widget class="QPushButton" name="d_vk">
    <property name="geometry">
     <rect>
      <x>202</x>
@@ -933,10 +930,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Dв</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_69">
+  <widget class="QPushButton" name="f_vk">
    <property name="geometry">
     <rect>
      <x>257</x>
@@ -946,10 +943,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Fа</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_70">
+  <widget class="QPushButton" name="g_vk">
    <property name="geometry">
     <rect>
      <x>312</x>
@@ -959,10 +956,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Gп</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_71">
+  <widget class="QPushButton" name="h_vk">
    <property name="geometry">
     <rect>
      <x>367</x>
@@ -972,10 +969,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Hр</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_72">
+  <widget class="QPushButton" name="j_vk">
    <property name="geometry">
     <rect>
      <x>422</x>
@@ -985,10 +982,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Jо</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_73">
+  <widget class="QPushButton" name="k_vk">
    <property name="geometry">
     <rect>
      <x>477</x>
@@ -998,10 +995,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Kл</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_74">
+  <widget class="QPushButton" name="l_vk">
    <property name="geometry">
     <rect>
      <x>532</x>
@@ -1011,10 +1008,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Lд</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_75">
+  <widget class="QPushButton" name="zh_vk">
    <property name="geometry">
     <rect>
      <x>587</x>
@@ -1024,10 +1021,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>ж;:</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_76">
+  <widget class="QPushButton" name="commas_vk">
    <property name="geometry">
     <rect>
      <x>642</x>
@@ -1037,10 +1034,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>э'&quot;</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_77">
+  <widget class="QPushButton" name="slash_vk">
    <property name="geometry">
     <rect>
      <x>697</x>
@@ -1050,10 +1047,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>|/\</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_78">
+  <widget class="QPushButton" name="z_vk">
    <property name="geometry">
     <rect>
      <x>110</x>
@@ -1063,10 +1060,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Zя</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_79">
+  <widget class="QPushButton" name="x_vk">
    <property name="geometry">
     <rect>
      <x>165</x>
@@ -1076,10 +1073,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Xч</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_80">
+  <widget class="QPushButton" name="c_vk">
    <property name="geometry">
     <rect>
      <x>220</x>
@@ -1089,10 +1086,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Cc</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_81">
+  <widget class="QPushButton" name="v_vk">
    <property name="geometry">
     <rect>
      <x>275</x>
@@ -1102,10 +1099,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Vм</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_82">
+  <widget class="QPushButton" name="b_vk">
    <property name="geometry">
     <rect>
      <x>330</x>
@@ -1115,10 +1112,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Bи</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_83">
+  <widget class="QPushButton" name="n_vk">
    <property name="geometry">
     <rect>
      <x>385</x>
@@ -1128,10 +1125,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Nт</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_84">
+  <widget class="QPushButton" name="m_vk">
    <property name="geometry">
     <rect>
      <x>440</x>
@@ -1141,10 +1138,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>Mь</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_85">
+  <widget class="QPushButton" name="leftarrow_vk">
    <property name="geometry">
     <rect>
      <x>495</x>
@@ -1154,10 +1151,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>б&lt;,</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_86">
+  <widget class="QPushButton" name="rightarrow_vk">
    <property name="geometry">
     <rect>
      <x>550</x>
@@ -1167,10 +1164,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>ю&gt;.</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_87">
+  <widget class="QPushButton" name="dot_vk">
    <property name="geometry">
     <rect>
      <x>605</x>
@@ -1180,10 +1177,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>/?,.</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_88">
+  <widget class="QPushButton" name="rightshift_vk">
    <property name="geometry">
     <rect>
      <x>660</x>
@@ -1193,10 +1190,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>shift</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_89">
+  <widget class="QPushButton" name="enter_vk">
    <property name="geometry">
     <rect>
      <x>750</x>
@@ -1205,11 +1202,16 @@
      <height>101</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
    <property name="text">
-    <string>f2</string>
+    <string>↵</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_90">
+  <widget class="QPushButton" name="numlockseven_vk">
    <property name="geometry">
     <rect>
      <x>1155</x>
@@ -1219,10 +1221,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>7 home</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_91">
+  <widget class="QPushButton" name="numlockeight_vk">
    <property name="geometry">
     <rect>
      <x>1210</x>
@@ -1232,10 +1234,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>8↑</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_92">
+  <widget class="QPushButton" name="numlocknine_vk">
    <property name="geometry">
     <rect>
      <x>1265</x>
@@ -1245,10 +1247,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>9 pg up</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_93">
+  <widget class="QPushButton" name="numlockplus_vk">
    <property name="geometry">
     <rect>
      <x>1320</x>
@@ -1258,10 +1260,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>+</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_94">
+  <widget class="QPushButton" name="numlocksix_vk">
    <property name="geometry">
     <rect>
      <x>1265</x>
@@ -1271,10 +1273,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>6→</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_95">
+  <widget class="QPushButton" name="numlockfive_vk">
    <property name="geometry">
     <rect>
      <x>1210</x>
@@ -1284,10 +1286,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>5</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_96">
+  <widget class="QPushButton" name="numlockfour_vk">
    <property name="geometry">
     <rect>
      <x>1155</x>
@@ -1297,10 +1299,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>4←</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_97">
+  <widget class="QPushButton" name="numlockenter_vk">
    <property name="geometry">
     <rect>
      <x>1320</x>
@@ -1310,10 +1312,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>enter</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_98">
+  <widget class="QPushButton" name="numlockthree_vk">
    <property name="geometry">
     <rect>
      <x>1265</x>
@@ -1323,10 +1325,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>3 pg dn</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_99">
+  <widget class="QPushButton" name="numlocktwo_vk">
    <property name="geometry">
     <rect>
      <x>1210</x>
@@ -1336,10 +1338,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>2↓</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_100">
+  <widget class="QPushButton" name="numlockone_vk">
    <property name="geometry">
     <rect>
      <x>1155</x>
@@ -1349,10 +1351,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>1 end</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_101">
+  <widget class="QPushButton" name="numlockzero_vk">
    <property name="geometry">
     <rect>
      <x>1155</x>
@@ -1362,10 +1364,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>0 ins</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="f2_102">
+  <widget class="QPushButton" name="numlockdel_vk">
    <property name="geometry">
     <rect>
      <x>1265</x>
@@ -1375,10 +1377,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>f2</string>
+    <string>del ,</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="port_label">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -1402,7 +1404,7 @@
     <string>PORT:</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="mac_label">
    <property name="geometry">
     <rect>
      <x>240</x>
@@ -1426,7 +1428,7 @@
     <string>MAC:</string>
    </property>
   </widget>
-  <widget class="QSpinBox" name="spinBox">
+  <widget class="QSpinBox" name="port_spinbox">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -1447,7 +1449,7 @@
     <number>16</number>
    </property>
   </widget>
-  <widget class="QTextBrowser" name="textBrowser">
+  <widget class="QTextBrowser" name="mac_textarea">
    <property name="geometry">
     <rect>
      <x>370</x>
@@ -1457,28 +1459,28 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLabel" name="label_3">
+  <widget class="QPushButton" name="connect_vk">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>385</y>
-     <width>1371</width>
-     <height>111</height>
+     <x>2</x>
+     <y>387</y>
+     <width>1365</width>
+     <height>110</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>48</pointsize>
+     <pointsize>32</pointsize>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true"/>
+    <string notr="true">#connect_vk
+{
+background: rgba(196,0,0,255);
+}</string>
    </property>
    <property name="text">
-    <string>status</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
+    <string>CONNECT</string>
    </property>
   </widget>
  </widget>
