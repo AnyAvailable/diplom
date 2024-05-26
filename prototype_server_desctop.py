@@ -19,13 +19,10 @@ while 1:
             break
         if not data: break
         if data:
-            try:
-                keys = str(data.decode("utf-8"))
-                keyboard.press(keys)
-                client.send(data)
-                keyboard.release(keys)
-                print(bytes.decode(data))
-            except:
-                pass
+            keys = str(data.decode("utf-8"))
+            keyboard.press(keys)
+            client.send(data)
+            keyboard.release(keys)
+            print(bytes.decode(data))
 s.close()
 sys.exit(0)

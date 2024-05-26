@@ -15,6 +15,8 @@ class App(QMainWindow):
         self.connected = False
         self.memory = ""
         self.combo = self.comboenable_rb
+        self.port_spinbox.textChanged.connect(self.portChange)
+        self.mac_textarea.textChanged.connect(self.macChange)
         self.esc_vk.clicked.connect(self.esc)
         self.f1_vk.clicked.connect(self.f1)
         self.f2_vk.clicked.connect(self.f2)
@@ -120,6 +122,14 @@ class App(QMainWindow):
                 self.connected = True
             except:
                 pass
+
+
+    def portChange(self):
+        self.port = self.port_spinbox.value()
+
+
+    def macChange(self):
+        self.serverMACAddress = self.mac_textarea.toPlainText()
 
 
     def esc(self):

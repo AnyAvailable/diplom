@@ -1449,16 +1449,6 @@
     <number>16</number>
    </property>
   </widget>
-  <widget class="QTextBrowser" name="mac_textarea">
-   <property name="geometry">
-    <rect>
-     <x>370</x>
-     <y>335</y>
-     <width>990</width>
-     <height>50</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QPushButton" name="connect_vk">
    <property name="geometry">
     <rect>
@@ -1481,6 +1471,39 @@ background: rgba(196,0,0,255);
    </property>
    <property name="text">
     <string>CONNECT</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="comboenable_rb">
+   <property name="geometry">
+    <rect>
+     <x>1164</x>
+     <y>10</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>enable combination</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="mac_textarea">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>335</y>
+     <width>1020</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
    </property>
   </widget>
  </widget>
